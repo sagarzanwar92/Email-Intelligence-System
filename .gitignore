@@ -1,0 +1,15 @@
+# Archive & Data Files
+*.zip
+*.tar
+*.gz
+*.7z
+*.csv
+*.xlsx
+
+# Environment & Cache
+ai_master/
+venv/
+__pycache__/
+.env
+
+email.csv.zip
