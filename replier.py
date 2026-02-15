@@ -22,3 +22,18 @@ def generate_draft(analysis):
                 "Best,\nSagar")
 
     return "Draft could not be generated."
+
+
+
+def extract_writing_style(sample_emails):
+    analysis_prompt = """
+    Analyze these emails and identify the writing style. Look for:
+    1. Greeting style (e.g., 'Hi [Name],', 'Hey!', or no greeting?)
+    2. Sentence length (Short/punchy or long/detailed?)
+    3. Closing (e.g., 'Regards, Sagar', 'Best, S', 'Cheers!')
+    4. Use of emojis or specific industry jargon.
+
+    Respond with ONLY 5-10 bullet points describing the 'Voice'.
+    """
+    # (Standard LLM invoke logic here...)
+    return style_bullet_points
